@@ -21,7 +21,7 @@ public class Main{
 			int c = Integer.parseInt(st.nextToken());
 
 			// 배열의 index와  현실의 순서를 혼동하지말자
-			for (int j = a-1; j <= b-1; j++) {
+			for (int j = a-1; j < b; j++) {
 				bucket[j] = c;
 			}
 		}
